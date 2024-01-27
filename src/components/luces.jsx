@@ -13,6 +13,7 @@ const Luces = () => {
 
     return (
         <>
+        <div className='pole'></div>
         <div className={`luzamarilla ${selected =="luzamarilla" ? "light-on" : ""}`}
         onClick={() => changeColor("luzamarilla")}
         >
